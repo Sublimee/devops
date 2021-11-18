@@ -29,3 +29,13 @@ resource "digitalocean_droplet" "droplet" {
     private_key = file(var.do_ssh_private_key_path)
   }
 }
+
+locals {
+  droplet_ip = "${digitalocean_droplet.droplet-1.ipv4_address}"
+}
+
+
+resource "local_file" "ansible_inventory" {
+  content = yamlencode({all:{hosts:{"${local.droplet_ip}":{ansible_ssh_private_key_file:"${var.do_ssh_private_key_path}"}}}})
+  filename = "hosts"
+}
