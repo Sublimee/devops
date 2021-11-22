@@ -1,3 +1,3 @@
 ## commands
-####get package version:
+get package version:
 apt show nginx
