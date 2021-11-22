@@ -2,4 +2,4 @@
 
 ansible -i hosts -m ping all
 
-ansible-playbook -i hosts1 first1
+ansible-playbook -i hosts manifest
