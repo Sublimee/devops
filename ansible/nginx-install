@@ -2,8 +2,15 @@
     - all
   tasks:
     - name: ensure nginx is at the latest version
-      apt: name=nginx state=latest
+      apt:
+        name: nginx=1.18.0-0ubuntu1.2
+        state: fixed
+        update_cache: true
+      notify:
+      - start nginx
+
+  handlers:
     - name: start nginx
       service:
-          name: nginx
-          state: started
+        name: nginx
+        state: started
