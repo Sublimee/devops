@@ -4,7 +4,7 @@
     - name: ensure nginx is at the latest version
       apt:
         name: nginx=1.18.0-0ubuntu1.2
-        state: fixed
+        state: present
         update_cache: true
       notify:
       - start nginx
