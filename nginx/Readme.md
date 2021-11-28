@@ -5,3 +5,7 @@ default config location:
 
 default content location:
 > /var/www/html/
+
+## links
+
+https://www.keycdn.com/support/nginx-virtual-host
