@@ -1,5 +1,14 @@
 ## Virtualenv
+Устанавливаем pip
 > apt install python3-pip
+
+Устанавливаем virtualenv
+> pip install virtualenv
+
+Переходим в папку, в которой планируем развернуть окружение, и указываем необходимую версию python
+> virtualenv venv --python=python3.9.7
+
+> pip install ansible-core
 
 ## Migration 
 Версия Python на системе
