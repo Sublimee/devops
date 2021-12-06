@@ -8,6 +8,9 @@ show file tail:
 show nested dirs content from . recursively:
 > ls -laR *
 
+get DNS info
+> dig aquariusborelias.devops.rebrain.srwx.net
+
 ### SSL 
 
 Security check
