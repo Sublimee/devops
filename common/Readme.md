@@ -11,6 +11,9 @@ show nested dirs content from . recursively:
 get DNS info
 > dig aquariusborelias.devops.rebrain.srwx.net
 
+recursively find all files due to mask
+> find . -name "foo*" 2>/dev/null
+
 ### SSL 
 
 Security check
