@@ -14,6 +14,11 @@ get DNS info
 recursively find all files due to mask
 > find . -name "foo*" 2>/dev/null
 
+copy dirs and content
+> cp -R path_to_source path_to_destination/
+
+> cp -a path_to_source/. path_to_destination/
+
 ### SSL 
 
 Security check
