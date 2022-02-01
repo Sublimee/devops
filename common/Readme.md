@@ -1,4 +1,8 @@
-### commands
+### Commands
+
+disk usage
+> df -h --total
+
 get package version:
 > apt show nginx
 
