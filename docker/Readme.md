@@ -1,3 +1,8 @@
+# Commands
+
+delete all images
+> docker rmi -f $(docker images -a -q)
+
 # Debian-like
 
 Add Insecure Registry 
