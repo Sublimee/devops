@@ -1,5 +1,8 @@
 ### Commands
 
+get distr info
+> cat /proc/version
+
 disk usage
 > df -h --total
 
