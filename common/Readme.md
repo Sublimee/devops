@@ -1,5 +1,8 @@
 ### Commands
 
+get used ports
+> netstat -tulpn
+
 get distr info
 > cat /proc/version
 
