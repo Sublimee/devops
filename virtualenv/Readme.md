@@ -6,9 +6,19 @@
 > pip install virtualenv
 
 Переходим в папку, в которой планируем развернуть окружение, и указываем необходимую версию python
-<!-- > virtualenv venv --python=python3.9.7  seems doesn't work-->
+
+
+## pyenv
+install pyenv
+> https://passionsplay.com/blog/python-dev-environment-under-ubuntu-in-2021/
+configure pyenv
+> https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean
+
+
+## python
 > https://help.dreamhost.com/hc/en-us/articles/215489338-Installing-and-using-virtualenv-with-Python-2
 
+## other
 some commands (not sorted)
 > sudo -H pip install ansible==2.3.3.0
 
