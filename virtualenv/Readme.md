@@ -9,6 +9,7 @@
 > virtualenv venv --python=python3.9.7
 
 > pip install ansible-core
+pip install ansible==2.5.0
 
 ## Migration 
 Версия Python на системе
