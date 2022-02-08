@@ -11,6 +11,7 @@
 ## pyenv
 install pyenv
 > https://passionsplay.com/blog/python-dev-environment-under-ubuntu-in-2021/
+
 configure pyenv
 > https://stackoverflow.com/questions/62743132/ubuntu-18-04-command-pyenv-not-found-did-you-mean
 
