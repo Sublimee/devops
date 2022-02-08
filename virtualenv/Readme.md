@@ -6,7 +6,9 @@
 > pip install virtualenv
 
 Переходим в папку, в которой планируем развернуть окружение, и указываем необходимую версию python
-> virtualenv venv --python=python3.9.7
+<!-- > virtualenv venv --python=python3.9.7  seems doesn't work-->
+> https://help.dreamhost.com/hc/en-us/articles/215489338-Installing-and-using-virtualenv-with-Python-2
+
 
 > pip install ansible-core
 pip install ansible==2.5.0
