@@ -9,6 +9,8 @@
 <!-- > virtualenv venv --python=python3.9.7  seems doesn't work-->
 > https://help.dreamhost.com/hc/en-us/articles/215489338-Installing-and-using-virtualenv-with-Python-2
 
+some commands (not sorted)
+> sudo -H pip install ansible==2.3.3.0
 
 > pip install ansible-core
 pip install ansible==2.5.0
