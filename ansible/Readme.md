@@ -8,3 +8,10 @@ execute single command:
 
 execute manifest:
 > ansible-playbook -i hosts manifest.yml
+
+run ansible in venv:
+> virtualenv my-custom-venv --python=/usr/bin/python2.6
+
+> source ./my-custom-venv/bin/activate
+
+> pip install ansible==2.5.0
