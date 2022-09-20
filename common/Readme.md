@@ -1,5 +1,8 @@
 ### Commands
 
+get interfaces
+> ip -a
+
 get used ports
 > netstat -tulpn
 
