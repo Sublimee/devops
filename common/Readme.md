@@ -12,6 +12,9 @@ get distr info
 disk usage
 > df -h --total
 
+current dir content size
+> du -sh *
+
 get package version:
 > apt show nginx
 
