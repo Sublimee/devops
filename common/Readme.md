@@ -7,6 +7,9 @@ get used ports
 > netstat -tulpn
 
 get distr info
+cat /etc/*-release
+ 
+get linux release
 > cat /proc/version
 
 disk usage
