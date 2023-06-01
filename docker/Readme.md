@@ -3,6 +3,9 @@
 delete all images
 > docker rmi -f $(docker images -a -q)
 
+delete all containers
+> docker rm $(docker ps -aq)
+
 # Guides
 
 add insecure registry (Debian-like)
